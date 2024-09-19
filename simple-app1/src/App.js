@@ -43,10 +43,19 @@ function Accordion({ data }) {
         curOpen={curOpen}
         onOpen={setCurOpen}
         title="My name is ....."
-        num={39}
+        num={4}
         key="test 1"
       >
         <h1>Anil  </h1>
+      </AccordionItem>
+      <AccordionItem
+        curOpen={curOpen}
+        onOpen={setCurOpen}
+        title="What is the capital of India ?"
+        num={5}
+        key="test 1"
+      >
+        <h1>Delhi  </h1>
       </AccordionItem>
     </div>
   );
