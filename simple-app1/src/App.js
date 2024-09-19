@@ -53,7 +53,7 @@ function Accordion({ data }) {
         onOpen={setCurOpen}
         title="What is the capital of India ?"
         num={5}
-        key="test 1"
+        key="test 2"
       >
         <h1>Delhi  </h1>
       </AccordionItem>
